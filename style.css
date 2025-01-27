@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#delivery-section,#advantage-section,#search-section,#deals-section,#populor-section,#contact-section{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-class{
+    justify-content: space-around;
+}
+.logo{
+    color: #ffb30e;
+    font-family: "Qwigley", serif;
+    font-weight:700;
+    font-size: 40px;
+}
+.login-button{
+    background-color: transparent;
+    border: 1px solid #f17228;
+    border-radius: 5px;
+    padding: 7px;
+    color: #f17228;
+}
+#home-section{
+    background-color: #fdbe35;
+}
+#home-section h1{
+    color: white ;
+    font-family:"Qwigley", serif; 
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 50px;
+}
+#home-section h5{
+    color: #504f4f;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+.home-details{
+    display: flex;
+    
+}
+.home-main-items{
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.home-items{
+    background-color: antiquewhite;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150%;
+}
+.home-delivery-button{
+    padding: 5px;
+    color: #f17228;
+    background-color: rgba(241, 114,40, 0.1);
+    border-radius: 5px;
+    font-weight: 500;
+}
+.home-pickup-button{
+    margin-top: 20px;
+}
+.home-find-button{
+    background-color: #ff7474;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    border-color: #f5f5f5;
+}
+.home-items input{
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px;
+}
+.home-details p{
+margin-right: 20px;
+
+}
+.text-orange{
+    color: #f17228;
+}
+.vertical-line{
+    border: 1px solid lightgray;
+    height: 60px;
+    margin: 0px 20px;
+}
+#search-section{
+    background-color: rgb(233, 218, 218);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search-items h5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #424242;
+
+}
+.delivery-items h3{
+    color: #545353;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.delivery-button{
+    padding: 7px;
+    color: #f17228;
+    background-color: rgba(241, 114,40,0.2);
+    width: 70%;
+    text-align: center;
+    border-radius: 7px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.order-button{
+    background-color:#f17228 ;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+.delivery-items > div{
+    margin: 10px;
+}
+.advantage-items > div{
+    margin: 14px;
+}
+.deal-items{
+    display: flex;
+    justify-content: space-around;
+}
+.deal-items  h5{
+    color: rgba(97,97 , 97,0.69);
+    font-weight: lighter;
+    font-size: 20px;
+}
+.deal-items h1{
+    font-size: 40px;
+}
+.deal-first-item{
+    width: 40%;
+}
+.search-items,.populor-items > div{
+    margin: 10px;
+}
+#contact-section{
+    background-color: #090d12;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.horizontal-line{
+    border-top: 1px solid lightgray;
+    padding: 10px;
+}
+.contact-items{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-items h5{
+    font-weight: lighter;
+}
+.contact-sub-items{
+    align-items: start;
+    
+}
+.contact-sub-items > div {
+    margin-right: 30px;
+}
+.contact-input{
+    background-color: #adadad;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+.contact-subscribe{
+    color: white;
+    background-color: #ffb30e;
+    padding:10px;
+    border: none ;
+    border-radius: 5px;
+}
+#navigation-section{
+    padding: 5px;
+}
+@media screen and (max-width: 768px){
+   .flex{
+       flex-wrap: wrap;
+   } 
+   .home-items{
+         width: 80%;
+   }
+   #home-section {
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+   .home-items input{
+    width: 45%;
+   }
+   .home-image img{
+         width: 250px;
+         margin-top: 10px;
+   }
+   .delivery-items h3{
+    text-align: center;
+   }
+   .delivery-button{
+    width:95%;
+   }
+   #delivery-section,#advantage-section,#search-section,#deals-section,#populor-section,#contact-section{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+   .vertical-line{
+    display: none;
+   }
+   .advantage-items h3{
+    margin-left: 15px;
+   }
+   .deal-image{
+    width: 250px;
+    margin-top: 15px;
+   }
+   .deal-first-item h1{
+    font-size: 30px;
+   }
+   .deal-first-item h5{
+    font-size: 15px;
+   }
+   .populor-items > div h3{
+    text-align: center;
+   }
+   .contact-follow{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+   }
+   .nav-content{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+   }
+}
+img:hover{
+    transition: transform 0.2s;
+   transform: scale( 1.2);
+}
